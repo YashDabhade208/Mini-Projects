@@ -7,6 +7,7 @@ const Todo = () => {
     const [task, setTask] = useState([]);
     const [newtask, setNewTask] = useState("");
     const [completedtask,setcompletedtask]=useState(false);
+    const e=0;
    
     const handleinputchange = (e) => {
         setNewTask(e.target.value)
